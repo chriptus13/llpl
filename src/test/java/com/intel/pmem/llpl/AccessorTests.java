@@ -604,7 +604,7 @@ public class AccessorTests {
         acc.handle(mb.handle());
         byte[] arr = new byte[size];
         int offset = size;
-        int len = -1;
+        int len = size;
         for(int i = 0; i < len; i++)
             arr[i] = (byte)-1;
         try {
